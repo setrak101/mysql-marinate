@@ -1,9 +1,21 @@
-1. What do we mean when we say that MySQL has a client-server architecture?
+﻿1. What do we mean when we say that MySQL has a client-server architecture?
+
+Client is or is like a pc that is connected via a network to the server where the databases reside.
+
 
 2. Use the monitor help to look up information on the SELECT statement. (We’ll discuss SELECT in detail in Chapter 5.)
+
+Went into the doc lib via workbench, keyed in 'search' and 50 results came back.
 
 3. What is the difference between using the monitor in interactive mode and using
 the monitor in batch mode?
 
+interactive or foreground means keying things in directly from the command line prompt whereas batch mode means
+creating and saving a file and the extension of .sql and calling the batch code name from the cmd prompt or background mode.
+
 4. What do the monitor user, password, and database options do?
+
+User is the username along with appropriate permissions used by someone to access a given database and if pswd is req'd but not given, the connection will fail.
+
+Workbench DB option gave me 3 to select from so I could not resist drilling down to a table and doing a simple select which resulted in limiting me to 200 records returned.
 

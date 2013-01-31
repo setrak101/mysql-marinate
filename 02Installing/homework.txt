@@ -3,17 +3,35 @@ Homework for Chapter 2 of Learning MySQL (2006 edition), from p. 94:
 Exercises:
 1) What is command completion?
 
+Nice feature of the *nix world.  Allows for less typing as well as for history.
+
+
 2) What are the relative advantages of installing MySQL using the package,
  directory archive (tarball or "no-install", or compiled methods?
 
+Package is quickest and easiest.
+Tarball is zipped and symbolic links are very useful.
+Compiled method is for Production shops where RAS as well as customization might be involved.
+
+
 3) How do you verify the integrity of downloaded packages?
 
+checksums
+
 4) How do you add the MySQL bin directory to the operating system path?
+
+I have a 64 bit Windows 7 machine so I was unable to locate the answer to this question on my OS control panel.
+So, it was either previously there from my XAMPP install or was done automagically by my most recent MySQL install because, in the process of searching for the answer to this question on my machine, I found that it was already there by poking around on the Workbench.
+
 
 Additional Exercises (not in the book): 
 1) Document how you installed MySQL and any issues you came across with installation. 
  (The goal is to be easy to install it again on a similar machine.)
 
+I do not think that I would want to document my install for several reasons.  To begin with, I 'moved' the XAMPP version before reading the book where it explained how to upgrade if necessary.  Secondly, I did the first install in parts due to time constraints without documenting anything and therefore lost my place.   Thirdly I installed in on Windows for which I have little respect and much distain and therefore have learned at little about it until and unless necessary.  If I had the time, which I don't for multitude of reasons and is also why I am behind on my assignments, I would upgrade my old Linux box and install a newer OS and MySQL there trying each of the types of installs for the experience and education.
+
 2) Document where important files should be.
+
+That is dependent on what types of files being referred to.  I suggest folders either existing of needing to created under the MySQL directory.
 
 Do not forget to do a pull request when your homework is complete.
